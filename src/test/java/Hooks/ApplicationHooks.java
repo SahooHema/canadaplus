@@ -28,7 +28,3 @@ public class ApplicationHooks extends Base{
 	}
 }
 //note:important for interview
-@Test
-public void count() {
-	
-}
