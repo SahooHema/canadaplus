@@ -24,12 +24,8 @@ public class ApplicationHooks extends Base{
 		String screenshot=	scenario.getName();
 		byte[] sourcepath=((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
 		scenario.attach(sourcepath, "image/png", screenshot);
+		System.out.println("always keep");
 		}
 	}
 }
 //note:important for interview}
-
-@Before
-public void exit() {
-	System.out.println();
-}
