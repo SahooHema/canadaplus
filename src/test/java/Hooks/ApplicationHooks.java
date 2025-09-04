@@ -17,6 +17,7 @@ public class ApplicationHooks extends Base{
 //		Base.initialization();
 //	}
 	
+	file is corrupted;
 	@After(order=0)
 	public void tearDown(Scenario scenario) {
 		if(scenario.isFailed()) {
