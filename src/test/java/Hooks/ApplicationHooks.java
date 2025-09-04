@@ -28,3 +28,8 @@ public class ApplicationHooks extends Base{
 	}
 }
 //note:important for interview}
+
+@Before
+public void exit() {
+	System.out.println();
+}
