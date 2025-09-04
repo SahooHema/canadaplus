@@ -3,6 +3,7 @@ package Hooks;
 import org.openqa.selenium.OutputType;
 
 import org.openqa.selenium.TakesScreenshot;
+import org.testng.annotations.Test;
 
 import com.qa.base.Base;
 
@@ -17,7 +18,6 @@ public class ApplicationHooks extends Base{
 //		Base.initialization();
 //	}
 	
-	file is corrupted;
 	@After(order=0)
 	public void tearDown(Scenario scenario) {
 		if(scenario.isFailed()) {
@@ -28,3 +28,8 @@ public class ApplicationHooks extends Base{
 	}
 }
 //note:important for interview
+
+@Test
+public void count() {
+	
+}
