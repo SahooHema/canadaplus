@@ -29,4 +29,8 @@ public class ApplicationHooks extends Base{
 	}
 }
 //note:important for interview}
+@Before
+public void testFile() {
+	System.out.println("good file");
+}
 
