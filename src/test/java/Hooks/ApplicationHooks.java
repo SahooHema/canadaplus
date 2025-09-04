@@ -24,7 +24,7 @@ public class ApplicationHooks extends Base{
 		String screenshot=	scenario.getName();
 		byte[] sourcepath=((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
 		scenario.attach(sourcepath, "image/png", screenshot);
-		System.out.println();
+		System.out.println("new line added");
 		System.out.println("adding new file");
 		}
 	}
