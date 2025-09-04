@@ -25,6 +25,7 @@ public class ApplicationHooks extends Base{
 		byte[] sourcepath=((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
 		scenario.attach(sourcepath, "image/png", screenshot);
 		System.out.println();
+		System.out.println("adding new file");
 		}
 	}
 }
@@ -33,4 +34,8 @@ public class ApplicationHooks extends Base{
 public void testFile() {
 	System.out.println("good file");
 }
+
+
+
+
 
